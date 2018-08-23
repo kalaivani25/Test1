@@ -1,0 +1,23 @@
+http://localhost:8080/booking/getAllMovies
+
+output:
+[
+{
+  "name" : "xyz"
+},{
+"name": "1234"
+}]
+
+http://localhost:8080/booking/addMovie
+
+input:
+{
+"name": "xyz"
+}
+
+output:
+success
+
+http://localhost:8080/booking/bookTicket?seat=1
+
+Seat Booked
